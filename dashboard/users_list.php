@@ -74,7 +74,7 @@ if (isset($_POST['User_delete'])) {
   $query = mysqli_query($con, $delet);
   if($query){
     $_SESSION['delete'] = "<p class='text-center text-success'>Data has been deleted successfully</p>";
-    header("location:users_list.php");
+    // header("location:users_list.php");
   }
 }
 
